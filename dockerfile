@@ -4,6 +4,6 @@ RUN apt-get update && apt-get install -y nodejs
 
 RUN npm -g install yarn
 
-yarn global add multi-cli
+RUN yarn global add multi-cli
 
-composer global install kivapi
+RUN composer global install kivapi
